@@ -1,7 +1,7 @@
 {
   "name": "@cpro-js/react-core-modules",
-  "version": "0.0.0",
-  "scripts": {},
+  "private": true,
+  "packageManager": "yarn@3.0.1",
   "workspaces": [
     "packages/*"
   ]
