@@ -1,0 +1,8 @@
+{
+  "name": "@cpro-js/react-core-modules",
+  "version": "0.0.0",
+  "scripts": {},
+  "workspaces": [
+    "packages/*"
+  ]
+}
