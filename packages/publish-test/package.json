@@ -5,8 +5,23 @@
     "access": "public"
   },
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
-  }
+    "build": "microbundle --no-compress --format esm,cjs --jsx 'React.createElement' --jsxImportSource react --globals react/jsx-runtime=jsx",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/react": "^17.0.19",
+    "jest": "^27.1.0",
+    "microbundle": "^0.13.3",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.2"
+  },
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts"
 }
