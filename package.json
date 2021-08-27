@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "yarn workspaces foreach -pt run build",
+    "ci:test": "yarn workspaces foreach -pt run test",
     "postinstall": "husky install",
     "postversion": "lerna publish from-git",
     "prerelease": "yarn build && yarn build",
