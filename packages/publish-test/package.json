@@ -8,10 +8,12 @@
   "main": "dist/index.js",
   "module": "dist/index.m.js",
   "scripts": {
-    "build": "microbundle --no-compress --format esm,cjs --jsx 'React.createElement' --jsxImportSource react --globals react/jsx-runtime=jsx",
+    "build": "rimraf dist && microbundle --no-compress --format esm,cjs --jsx 'React.createElement' --jsxImportSource react --globals react/jsx-runtime=jsx",
+    "prepublish": "rimraf dist && microbundle --no-compress --format esm,cjs --jsx 'React.createElement' --jsxImportSource react --globals react/jsx-runtime=jsx",
     "test": "jest"
   },
   "peerDependencies": {
+    "@types/react": "^17.0.19",
     "react": "^17.0.2"
   },
   "devDependencies": {
@@ -19,6 +21,8 @@
     "@types/react": "^17.0.19",
     "jest": "^27.1.0",
     "microbundle": "^0.13.3",
+    "react": "^17.0.2",
+    "rimraf": "^3.0.2",
     "ts-jest": "^27.0.5",
     "typescript": "^4.4.2"
   },

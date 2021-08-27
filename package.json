@@ -6,7 +6,6 @@
     "ci:test": "yarn workspaces foreach -pt run test",
     "postinstall": "husky install",
     "postversion": "lerna publish from-git",
-    "prerelease": "yarn build && yarn test",
     "release": "env-cmd -f .env.local --no-override lerna version",
     "test": "yarn workspaces foreach -pt run test",
     "version": "yarn install && git add yarn.lock"
