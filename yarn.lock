@@ -443,6 +443,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cpro-js/publish-test@workspace:packages/publish-test":
+  version: 0.0.0-use.local
+  resolution: "@cpro-js/publish-test@workspace:packages/publish-test"
+  languageName: unknown
+  linkType: soft
+
 "@cpro-js/react-core-modules@workspace:.":
   version: 0.0.0-use.local
   resolution: "@cpro-js/react-core-modules@workspace:."
