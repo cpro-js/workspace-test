@@ -8,9 +8,7 @@
     {
       "type": "linked-versions",
       "groupName": "my group",
-      "components": [
-        "publish-test"
-      ]
+      "components": ["publish-test", "publish-test2"]
     }
   ],
   "prerelease": true,
@@ -21,6 +19,9 @@
   "packages": {
     "packages/publish-test": {
       "component": "publish-test"
+    },
+    "packages/publish-test2": {
+      "component": "publish-test2"
     }
   }
 }
