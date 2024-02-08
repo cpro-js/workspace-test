@@ -1,0 +1,32 @@
+on:
+  release:
+    types: published
+
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "commit/tag/branch to release from"
+        required: true
+
+name: publish-npm
+
+jobs:
+  publish:
+    if: >
+      (github.event.inputs) ||
+      (startsWith(github.event.release.tag_name, 'v') &&
+      !github.event.release.draft)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.release.tag_name || github.event.inputs.ref }}
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Install packages
+        run: yarn --immutable
+      - name: Publish packages
+        run: yarn workspaces foreach -A --topological-dev npm publish --tolerate-republish
+        env:
+          YARN_NPM_AUTH_TOKEN: ${{ secrets.CPRO_JS_NPM_TOKEN }}

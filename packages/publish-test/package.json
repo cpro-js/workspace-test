@@ -9,7 +9,7 @@
   "module": "dist/index.m.js",
   "scripts": {
     "build": "rimraf dist && microbundle --no-compress --format esm,cjs --jsx 'React.createElement' --jsxImportSource react --globals react/jsx-runtime=jsx",
-    "prepublish": "rimraf dist && microbundle --no-compress --format esm,cjs --jsx 'React.createElement' --jsxImportSource react --globals react/jsx-runtime=jsx",
+    "prepack": "rimraf dist && microbundle --no-compress --format esm,cjs --jsx 'React.createElement' --jsxImportSource react --globals react/jsx-runtime=jsx",
     "test": "jest"
   },
   "peerDependencies": {

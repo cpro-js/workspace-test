@@ -1,5 +1,5 @@
 {
-  "name": "@cpro-js/react-core-modules",
+  "name": "@cpro-js/workspace-test",
   "version": "2.2.0",
   "private": true,
   "scripts": {
@@ -34,7 +34,7 @@
   "lint-staged": {
     "*": "prettier --ignore-unknown --write"
   },
-  "packageManager": "yarn@3.0.1",
+  "packageManager": "yarn@4.1.0",
   "workspaces": [
     "packages/*"
   ]
