@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.0](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test2-v3.1.0...@cpro-js/publish-test2-v4.0.0) (2024-02-08)
+
+
+### Miscellaneous Chores
+
+* **@cpro-js/publish-test2:** Synchronize Publish Test versions
+
 ## [3.1.0](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test2-v3.0.0...@cpro-js/publish-test2-v3.1.0) (2024-02-08)
 
 
