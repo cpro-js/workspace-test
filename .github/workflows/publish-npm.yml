@@ -23,7 +23,7 @@ jobs:
           ref: ${{ github.event.release.tag_name || github.event.inputs.ref }}
       - uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 18
       - name: Install packages
         run: yarn --immutable
       - name: Publish packages
