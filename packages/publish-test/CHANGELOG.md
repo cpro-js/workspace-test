@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.0](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test-v2.3.1...@cpro-js/publish-test-v3.0.0) (2024-02-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* test commit
+
+### Bug Fixes
+
+* test commit ([3359bc4](https://github.com/cpro-js/workspace-test/commit/3359bc477be25de8394e8c56709694d299cf72c5))
+
 ## [2.3.1](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test-v2.3.0...@cpro-js/publish-test-v2.3.1) (2024-02-08)
 
 
