@@ -21,7 +21,7 @@
       "component": "@cpro-js/publish-test"
     },
     "packages/publish-test2": {
-      "component": "@cpro-js/publish-test"
+      "component": "@cpro-js/publish-test2"
     }
   }
 }
