@@ -17,6 +17,7 @@
   "include-component-in-tag": true,
   "group-pull-request-title-pattern": "chore: release ${branch}",
   "packages": {
+    ".": {},
     "packages/publish-test": {
       "component": "publish-test"
     },
