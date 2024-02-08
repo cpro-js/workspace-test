@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - main
-      - v3
+      - release/v3
 
 name: release
 
