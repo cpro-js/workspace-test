@@ -27,6 +27,6 @@ jobs:
       - name: Install packages
         run: yarn --immutable
       - name: Publish packages
-        run: yarn workspaces foreach -A --topological-dev npm publish --tolerate-republish
+        run: yarn workspaces foreach -A --topological-dev --no-private npm publish --tolerate-republish
         env:
           YARN_NPM_AUTH_TOKEN: ${{ secrets.CPRO_JS_NPM_TOKEN }}
