@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test2-v3.0.0...@cpro-js/publish-test2-v3.1.0) (2024-02-08)
+
+
+### Features
+
+* new test package ([2d80af1](https://github.com/cpro-js/workspace-test/commit/2d80af141d5122fb2e18581af4523aced2255af1))
+
 ## [3.0.0](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test-v2.3.1...@cpro-js/publish-test-v3.0.0) (2024-02-08)
 
 
