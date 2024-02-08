@@ -18,7 +18,8 @@
   "group-pull-request-title-pattern": "chore: release ${branch}",
   "packages": {
     ".": {
-      "package-name": ""
+      "package-name": "",
+      "include-component-in-tag": false
     },
     "packages/publish-test": {
       "component": "@cpro-js/publish-test"
