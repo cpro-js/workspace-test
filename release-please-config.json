@@ -8,7 +8,7 @@
     {
       "type": "linked-versions",
       "groupName": "Publish Test",
-      "components": ["@cpro-js/publish-test", "@cpro-js/publish-test2"]
+      "components": ["@cpro-js/publish-test"]
     }
   ],
   "prerelease": true,
