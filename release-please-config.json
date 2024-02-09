@@ -7,8 +7,8 @@
     },
     {
       "type": "linked-versions",
-      "groupName": "Publish Test",
-      "components": ["@cpro-js/publish-test"]
+      "groupName": "Test Group",
+      "components": ["@cpro-js/publish-test", "@cpro-js/publish-test2"]
     }
   ],
   "bump-minor-pre-major": true,
