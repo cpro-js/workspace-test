@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.2](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test2-v4.0.1...@cpro-js/publish-test2-v4.0.2) (2024-02-09)
+
+
+### Bug Fixes
+
+* test commit ([4dba0f0](https://github.com/cpro-js/workspace-test/commit/4dba0f0338fd9341d95efd10849ba526899c937d))
+
 ## [4.0.1](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test2-v4.0.0...@cpro-js/publish-test2-v4.0.1) (2024-02-09)
 
 
