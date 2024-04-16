@@ -16,6 +16,9 @@
     "@types/react": "^17.0.19",
     "react": "^17.0.2"
   },
+  "dependencies": {
+    "@cpro-js/publish-test": "4.0.2"
+  },
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "@types/react": "^17.0.19",
