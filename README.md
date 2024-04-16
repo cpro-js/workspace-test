@@ -1,0 +1,3 @@
+# workspace test
+
+just a repository to test some monorepo things ...
