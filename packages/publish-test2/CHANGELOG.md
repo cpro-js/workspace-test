@@ -1,5 +1,20 @@
 # Changelog
 
+## [4.0.3](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test2-v4.0.1...@cpro-js/publish-test2-v4.0.3) (2024-04-16)
+
+
+### Bug Fixes
+
+* dependent package -&gt; yarn.lock ([4762b72](https://github.com/cpro-js/workspace-test/commit/4762b727c9f7ddd6386ca7206c44be973ce33244))
+* test commit ([4dba0f0](https://github.com/cpro-js/workspace-test/commit/4dba0f0338fd9341d95efd10849ba526899c937d))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @cpro-js/publish-test bumped from 4.0.2 to 4.0.3
+
 ## [4.0.1](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test2-v4.0.0...@cpro-js/publish-test2-v4.0.1) (2024-02-09)
 
 
