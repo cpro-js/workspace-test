@@ -1,5 +1,19 @@
 # Changelog
 
+## [4.0.4](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test2-v4.0.3...@cpro-js/publish-test2-v4.0.4) (2024-04-17)
+
+
+### Bug Fixes
+
+* release test ([d2f191e](https://github.com/cpro-js/workspace-test/commit/d2f191e70a41b653599b55126da237cfe2fb88cc))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @cpro-js/publish-test bumped from 4.0.3 to 4.0.4
+
 ## [4.0.3](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test2-v4.0.1...@cpro-js/publish-test2-v4.0.3) (2024-04-16)
 
 

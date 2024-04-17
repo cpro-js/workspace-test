@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.4](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test-v4.0.3...@cpro-js/publish-test-v4.0.4) (2024-04-17)
+
+
+### Bug Fixes
+
+* release test ([63e5f52](https://github.com/cpro-js/workspace-test/commit/63e5f5266c15cb261bc38612f15974e32310043e))
+
 ## [4.0.3](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test-v4.0.2...@cpro-js/publish-test-v4.0.3) (2024-04-16)
 
 
