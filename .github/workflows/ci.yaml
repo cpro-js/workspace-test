@@ -3,7 +3,7 @@ name: ci
 on:
   push:
     branches:
-      - main
+      - release/simple-project
   pull_request:
     types: [assigned, opened, synchronize, reopened]
 
