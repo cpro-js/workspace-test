@@ -5,5 +5,10 @@
   "include-component-in-tag": true,
   "separate-pull-requests": false,
   "pull-request-title-pattern": "chore(release): publish branch ${branch}",
-  "group-pull-request-title-pattern": "chore(release): publish branch ${branch}"
+  "group-pull-request-title-pattern": "chore(release): publish branch ${branch}",
+  "packages": {
+    ".": {
+      "package-name": ""
+    }
+  }
 }
