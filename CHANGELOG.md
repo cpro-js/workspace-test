@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/cpro-js/workspace-test/compare/publish-simple-v1.0.0...publish-simple-v1.0.1) (2024-04-18)
+
+
+### Bug Fixes
+
+* test ([e352586](https://github.com/cpro-js/workspace-test/commit/e3525869cc0907404e7cfe68cc01533317724b17))
+
 ## 1.0.0 (2024-04-18)
 
 
