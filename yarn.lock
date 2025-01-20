@@ -1562,7 +1562,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cpro-js/publish-test2@workspace:packages/publish-test2"
   dependencies:
-    "@cpro-js/publish-test": "npm:4.0.4"
+    "@cpro-js/publish-test": "npm:4.0.5"
     "@types/jest": "npm:^27.0.1"
     "@types/react": "npm:^17.0.19"
     jest: "npm:^27.1.0"
@@ -1577,7 +1577,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cpro-js/publish-test@npm:4.0.4, @cpro-js/publish-test@workspace:packages/publish-test":
+"@cpro-js/publish-test@npm:4.0.5, @cpro-js/publish-test@workspace:packages/publish-test":
   version: 0.0.0-use.local
   resolution: "@cpro-js/publish-test@workspace:packages/publish-test"
   dependencies:
