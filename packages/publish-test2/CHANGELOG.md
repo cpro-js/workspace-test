@@ -1,5 +1,19 @@
 # Changelog
 
+## [4.0.6](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test2-v4.0.5...@cpro-js/publish-test2-v4.0.6) (2025-01-20)
+
+
+### Miscellaneous Chores
+
+* **@cpro-js/publish-test2:** Synchronize Test Group versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @cpro-js/publish-test bumped from 4.0.5 to 4.0.6
+
 ## [4.0.5](https://github.com/cpro-js/workspace-test/compare/@cpro-js/publish-test2-v4.0.4...@cpro-js/publish-test2-v4.0.5) (2025-01-20)
 
 
